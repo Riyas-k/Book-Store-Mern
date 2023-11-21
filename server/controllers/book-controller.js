@@ -47,7 +47,7 @@ router.get("/single-book", async (req, res) => {
     res.status(200).json(singleBook);
   } catch (error) {
     console.log(error.message);
-  } 
+  }
 });
 
 //edit single books
